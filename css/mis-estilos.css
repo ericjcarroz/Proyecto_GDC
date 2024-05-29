@@ -1,0 +1,223 @@
+/*************FOTO********************/
+
+.prevPhoto{
+	display: flex;
+	justify-content: space-between;
+	width: 160px;
+	height: 150px;
+	border: 1px solid #CCC;
+	position: relative;
+	cursor: pointer;
+	background: url();
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	margin: auto;
+}
+.prevPhoto label{
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+.prevPhoto img{
+	width: 100%;
+	height: 100%;
+}
+.upimg, .notBlock{
+	display: none !important;
+}
+.errorArchivo{
+	font-size: 16px;
+	font-family: arial;
+	color: #cc8000;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 1opx;
+}
+
+.delPhoto{
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	background: red;
+	position: absolute;
+	right: -10px;
+	top: -10px;
+	z-index: 10;
+}
+#tbl_list_productos img{
+	width: 50px;
+}
+
+.imgProductoDelete{
+	width: 175px;
+}
+
+/********************LISTA PRODUCTO**************/
+
+.img_producto img{
+	width: 60px;
+	height: auto;
+	margin: auto;
+}
+
+
+
+.modal{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: rgba(0,0,0,0.85);
+	display: none;
+}
+
+.bodyModal{
+	width: 100%;
+	height: 100%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.modal h1{
+	color: #373a3c;
+	text-transform: uppercase;
+	text-align: center;
+	border-width: 1px;
+	border: 1px solid #ddd;
+}
+
+.modal h2{
+	text-transform: uppercase;
+	margin-top: 15px;
+	color: #373a3c;
+	text-transform: uppercase;
+	text-align: center;
+	border-width: 1px;
+	border: 1px solid #ddd;
+}
+
+
+#form_add_product{
+	width: 420px;
+	text-align: center;
+	color: #373a3c;
+	text-transform: uppercase;
+	text-align: center;
+	border-width: 1px;
+	border: 1px solid #ddd;
+}
+
+
+#form_anular_factura{
+
+
+}
+
+label{
+	font-size: 12px;
+	display: block;
+	width: 100%;
+}
+
+form{
+	background: #FFF;
+	margin: auto;
+	padding: 20px 50px;
+	border: 1px solid #d1d1d1;
+}
+
+
+
+
+input:focus{
+	border: 1px solid #1668c4;
+}
+
+input[type="submit"]{
+	margin-bottom: 0px;
+	background: #1668c4;
+	color: #Fff;
+	border: none;
+}
+
+input[type="submit"]:hover{
+	background: #4A88F4;
+	cursor: pointer;
+}
+
+
+/*============ Paginador =============*/
+.paginador ul{
+	padding: 15px;
+	list-style: none;
+	background: #FFF;
+	margin-top: 15px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-end;
+}
+.paginador a, .pageSelected{
+	color: #428bca;
+	border: 1px solid #ddd;
+	padding: 5px;
+	display: inline-block;
+	font-size: 14px;
+	text-align: center;
+	width: 35px;
+}
+.paginador a:hover{
+	background: #ddd;
+}
+.pageSelected{
+	color: #FFF;
+	background: #428bca;
+	border: 1px solid #428bca;
+}
+
+/****************VENTAS***********/
+
+.div_acciones{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+
+.datos_venta{
+	width: 100%;
+	max-width: 900px;
+	margin: auto;
+	margin-bottom: 20px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
